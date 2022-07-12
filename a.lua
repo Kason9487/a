@@ -39,7 +39,7 @@ Dir.DescendantAdded:Connect(
  
 game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
     if State == Enum.TeleportState.Started then
-        syn.queue_on_teleport("")
+        syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Kason9487/a/main/a.lua'))")
       end
 end)
  
